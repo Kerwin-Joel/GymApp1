@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProGym_BE
+namespace ProyGym_BE
 {
     public class Class1
     {

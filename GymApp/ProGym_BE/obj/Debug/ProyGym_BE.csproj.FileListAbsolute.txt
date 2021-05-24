@@ -1,0 +1,6 @@
+C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProGym_BE\bin\Debug\ProGym_BE.dll
+C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProGym_BE\bin\Debug\ProGym_BE.pdb
+C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProGym_BE\obj\Debug\ProyGym_BE.csprojAssemblyReference.cache
+C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProGym_BE\obj\Debug\ProyGym_BE.csproj.CoreCompileInputs.cache
+C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProGym_BE\obj\Debug\ProGym_BE.dll
+C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProGym_BE\obj\Debug\ProGym_BE.pdb

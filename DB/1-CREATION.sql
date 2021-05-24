@@ -20,8 +20,8 @@ CREATE TABLE dbo.Tb_Roles(
 CREATE TABLE dbo.Tb_Usuario
 (
  [idUsuario] Nchar(4) NOT NULL PRIMARY KEY,
- [usuario] Nvarchar(25) NOT NULL,
- [contraseña] Nvarchar(25) NOT NULL,
+ [usuario] Nvarchar(25) NOT NULL UNIQUE,
+ [contrasena] Nvarchar(25) NOT NULL,
  [nombre] Nvarchar(25) NOT NULL,
  [apellido] Nvarchar(25) NOT NULL,
  [numDoc] Nchar(8) NOT NULL,

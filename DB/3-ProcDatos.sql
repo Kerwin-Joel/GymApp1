@@ -95,7 +95,7 @@ CREATE PROCEDURE [dbo].[usp_ActualizarUsuario]
   AS
   UPDATE Tb_Usuario SET
   usuario = @usuario,
-  contraseña = @contrasena,
+  contrasena = @contrasena,
   nombre = @nombre,
   apellido = @apellido,
   numDoc = @numDoc,
@@ -118,12 +118,14 @@ WHERE numDoc = @numDoc
 GO
 
 --Consulta usuario
-CREATE PROC [dbo].[usp_ConsultarUsuario_nomUsuario]
-    @usuario Nvarchar(25)
+CREATE PROC [dbo].[usp_LOGIN]
+    @usuario Nvarchar(25),
+	@contrasena Nvarchar(25)
 AS
-SELECT * FROM Tb_Usuario
-WHERE usuario = @usuario
+SELECT usuario, contrasena, nombre , apellido, idRol, numDoc, estado, fechaRegis, usuRegistro   FROM Tb_Usuario
+WHERE usuario = @usuario and contrasena = @contrasena
 GO
+
 
 --LISTARUSUARIO:
 CREATE PROC [dbo].[usp_ListarUsuario]
@@ -205,7 +207,6 @@ CREATE PROCEDURE dbo.usp_ActualizarCliente
   
   WHERE
   idCliente = @idCliente
-
 GO
 
 --CONSULTA

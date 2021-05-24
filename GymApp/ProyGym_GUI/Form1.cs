@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ProyGym_GUI
 {
     public partial class Form1 : Form
@@ -15,6 +16,16 @@ namespace ProyGym_GUI
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            lblSaludo.Text = $"csm : {clsCredenciales.Nombre}";
         }
     }
 }

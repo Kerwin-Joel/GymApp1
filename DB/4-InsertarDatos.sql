@@ -116,6 +116,153 @@ EXEC usp_InsertarRol
 @nombre = Deudor
 
 GO
+------------------------SEDES
+EXEC usp_InsertarSede
+@nombre = 'GYMPlus Las Marinas',
+@direccion = 'Calle Las marinas 374',
+@anexo = 2548,
+@idDistrito = 'D001'
+
+EXEC usp_InsertarSede
+@nombre = 'GYMPlus Las Bonitas',
+@direccion = 'Calle Las bonitas 388',
+@anexo = 2555,
+@idDistrito = 'D002'
+
+-------------------INSERTAR PAQUETE
+
+EXEC usp_InsertarPaquete
+@nombre = 'GOLD PLUS',
+@descripcion= 'ACCESO A TODAS LAS MAQUINAS Y CLASES GRUPALES ',
+@precio = 99.99,
+@idSede = 'S001',
+@usuRegistro= 'psuclla'
+
+EXEC usp_InsertarPaquete
+@nombre = 'SILVER ',
+@descripcion= 'ACCESO A TODAS LAS MAQUINAS',
+@precio = 69.99,
+@idSede = 'S001',
+@usuRegistro= 'psuclla'
+
+EXEC usp_InsertarPaquete
+@nombre = 'NUEVO COMIENZO',
+@descripcion= 'ACCESO A TODAS LAS MAQUINAS SOLO 3 VECES POR SEMANA',
+@precio = 49.99,
+@idSede = 'S001',
+@usuRegistro= 'psuclla'
+
+
+EXEC usp_InsertarPaquete
+@nombre = 'GOLD PLUS',
+@descripcion= 'ACCESO A TODAS LAS MAQUINAS Y CLASES GRUPALES ',
+@precio = 99.99,
+@idSede = 'S002',
+@usuRegistro= 'psuclla'
+
+EXEC usp_InsertarPaquete
+@nombre = 'SILVER ',
+@descripcion= 'ACCESO A TODAS LAS MAQUINAS',
+@precio = 69.99,
+@idSede = 'S002',
+@usuRegistro= 'psuclla'
+
+EXEC usp_InsertarPaquete
+@nombre = 'NUEVO COMIENZO',
+@descripcion= 'ACCESO A TODAS LAS MAQUINAS SOLO 3 VECES POR SEMANA',
+@precio = 49.99,
+@idSede = 'S002',
+@usuRegistro= 'psuclla'
+
+
+-------------------------INSTRUCTOR
+EXEC usp_InsertarInstructor
+@idDistrito = 'D001',
+@usuario = 'mfino',
+@nombre = 'Marco',
+@apellido = 'fino',
+@sexo = 'M',
+@numDoc = '10056777',
+@celular = NULL,
+@correo = 'mfino@gymplus.com',
+@foto = NULL,
+@usuRegistro= 'psuclla'
+
+--------------------------CLIENTE
+
+EXEC dbo.usp_InsertarCliente
+@nombre = 'Patrick',
+@apellido = 'Suclla',
+@usuario = 'psuclla',
+@sexo = 'M',
+@nacimiento= '1999-02-08',
+@numDoc = '74355548',
+@celular = '922688165',
+@correo = 'psuclla@gmail.com',
+@idDistrito = 'D001',
+@estado = 1,
+@foto = NULL,
+@usuRegistro = 'psuclla'
+
+EXEC dbo.usp_InsertarCliente
+@nombre = 'Jhamir',
+@usuario = 'Jyncio',
+@apellido = 'Yncio',
+@sexo = 'M',
+@nacimiento= '1998-02-25',
+@numDoc = '46348682',
+@celular = '992486973',
+@correo = 'jyncio@gmail.com', 
+@idDistrito = 'D001',
+@usuRegistro = null,
+@foto = NULL,
+@estado = 1
+go
+
+EXEC dbo.usp_InsertarCliente
+@usuario = 'Dmandamiento',
+@nombre = 'Darcy',
+@apellido = 'Mandamiento',
+@sexo = 'M',
+@nacimiento= '1998-10-25',
+@numDoc = '46344782',
+@celular = '996438971',
+@correo = 'dmandamiento@gmail.com', 
+@idDistrito = 'D001',
+@usuRegistro = null,
+@foto = NULL,
+@estado = 1
+go
+
+-------------------- MATRICULA
+EXEC usp_InsertarMatricula
+@idCliente = 'C001',
+@idPaquete = 'P002',
+@usuRegistro = 'psuclla'
+
+-------------------------RUTINA
+EXEC usp_InsertarRutinaDieta
+@nomRutina = 'Ganar Masa', 
+@fotoR = null , 
+@nomDieta = 'La Comelona',
+@fotoD = null,
+@descripcion = 'La comelona es una dieta exclusiva para kerwin'
+GO
+
+EXEC usp_InsertarRutinaCliente
+@idCliente = 'C001',
+@idInstructor = 'I001', 
+@idRutinaD = 'Z001', 
+@talla = 182.00,
+@peso = 70.00, 
+@comentarios=NULL,
+@usuRegistro= 'I001'
+
+
+
+----
+
+
 
 -----------------------------------USUARIO ADMINISTRADOR-----------------
 /*EXEC dbo.usp_InsertarUsuario
@@ -628,84 +775,3 @@ EXEC dbo.usp_InsertarUsuario
 @estado = 1
 ------------------------------ INSERTAR SEDE-------------------
 */
-EXEC usp_InsertarSede
-@nombre = 'GYMPlus Las Marinas',
-@direccion = 'Calle Las marinas 374',
-@anexo = 2548,
-@idDistrito = 'D001'
-
-EXEC usp_InsertarSede
-@nombre = 'GYMPlus Las Bonitas',
-@direccion = 'Calle Las bonitas 388',
-@anexo = 2555,
-@idDistrito = 'D001'
-
--------------------INSERTAR PAQUETE
-
-EXEC usp_InsertarPaquete
-@nombre = 'GOLD PLUS',
-@descripcion= 'ACCESO A TODAS LAS MAQUINAS Y CLASES GRUPALES ',
-@precio = 99.99,
-@idSede = 'S001',
-@usuRegistro= 'psuclla'
-
-EXEC usp_InsertarPaquete
-@nombre = 'SILVER ',
-@descripcion= 'ACCESO A TODAS LAS MAQUINAS',
-@precio = 69.99,
-@idSede = 'S001',
-@usuRegistro= 'psuclla'
-
-
---------------------------
-
-EXEC dbo.usp_InsertarCliente
-@nombre = 'Patrick',
-@apellido = 'Suclla',
-@usuario = 'psuclla',
-@sexo = 'M',
-@nacimiento= '02-08-1999',
-@numDoc = '74355548',
-@celular = '922688165',
-@correo = 'psuclla@gmail.com',
-@idDistrito = 'D001',
-@estado = 1,
-@foto = NULL,
-@usuRegistro = 'psuclla'
-
-
-EXEC usp_InsertarInstructor
-@idDistrito = 'D001',
-@usuario = 'mfino',
-@nombre = 'Marco',
-@apellido = 'fino',
-@sexo = 'M',
-@numDoc = '10056777',
-@celular = NULL,
-@correo = 'mfino@gymplus.com',
-@foto = NULL,
-@usuRegistro= 'psuclla'
-
---------------------
-EXEC usp_InsertarMatricula
-@idCliente = 'C001',
-@idPaquete = 'P002',
-@usuRegistro = 'psuclla'
-
--------------------------
-EXEC usp_InsertarRutinaDieta
-@nomRutina = 'Ganar Masa', 
-@fotoR = null , 
-@nomDieta = 'La Comelona',
-@fotoD = null,
-@descripcion = 'La comelona es una dieta exclusiva para kerwin'
-GO
-
-EXEC usp_InstertarRutinaCliente
-@idCliente = 'C001',
-@idInstructor = 'I001', 
-@idRutinaD = 'Z001', 
-@talla = 182.00,
-@peso = 70.00, 
-@comentarios=NULL,
-@usuRegistro= 'I001'
