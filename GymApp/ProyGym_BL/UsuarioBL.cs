@@ -18,5 +18,7 @@ namespace ProyGym_BL
         {
             return objUsuarioADO.ConsultarUsuario(strLogin, strPassword);
         }
+
+
     }
 }

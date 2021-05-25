@@ -16,3 +16,21 @@ C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGy
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_GUI\bin\Debug\ProyGym_ADO.dll
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_GUI\bin\Debug\ProyGym_ADO.pdb
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.Form1.resources
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProyGym_GUI.exe.config
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProyGym_GUI.exe
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProyGym_GUI.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProGym_BE.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProyGym_BL.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProyGym_ADO.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProGym_BE.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProyGym_BL.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\bin\Debug\ProyGym_ADO.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.csprojAssemblyReference.cache
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.Form1.resources
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.frmLogin.resources
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.Properties.Resources.resources
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.csproj.GenerateResource.cache
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.csproj.CopyComplete
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.exe
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.pdb

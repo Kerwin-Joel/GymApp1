@@ -7,3 +7,12 @@ C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGy
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.csproj.CopyComplete
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.dll
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\bin\Debug\ProyGym_ADO.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\bin\Debug\ProyGym_ADO.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\bin\Debug\ProGym_BE.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\bin\Debug\ProGym_BE.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.csprojAssemblyReference.cache
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.csproj.CopyComplete
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_ADO\obj\Debug\ProyGym_ADO.pdb

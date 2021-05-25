@@ -9,3 +9,14 @@ C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGy
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.csproj.CopyComplete
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.dll
 C:\Users\kerwin\Desktop\Desarrollo de aplicaciones 1\ProyectoFinal\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\bin\Debug\ProyGym_BL.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\bin\Debug\ProyGym_BL.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\bin\Debug\ProGym_BE.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\bin\Debug\ProyGym_ADO.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\bin\Debug\ProGym_BE.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\bin\Debug\ProyGym_ADO.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.csprojAssemblyReference.cache
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.csproj.CopyComplete
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.dll
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_BL\obj\Debug\ProyGym_BL.pdb
