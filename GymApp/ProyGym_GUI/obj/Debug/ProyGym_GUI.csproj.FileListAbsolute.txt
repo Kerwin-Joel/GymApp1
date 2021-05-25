@@ -34,3 +34,4 @@ D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.csproj.CoreComp
 D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.csproj.CopyComplete
 D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.exe
 D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.pdb
+D:\Proyectos C#\GymApp1\GymApp\ProyGym_GUI\obj\Debug\ProyGym_GUI.InstructorInsertar.resources
